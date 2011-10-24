@@ -35,6 +35,11 @@ class Excel {
         $this->setActiveSheet();
     }
     
+    public function create()
+    {
+        return new \PHPExcel();
+    }
+
     /**
      * Number of sheets
      * 
