@@ -2,7 +2,7 @@
 
 namespace OS\ExcelBundle\Excel;
 
-require str_replace('bundles/OS/ExcelBundle/Excel', '', __DIR__) . '/PHPExcel/PHPExcel.php';
+//require str_replace('bundles/OS/ExcelBundle/Excel', '', __DIR__) . '/PHPExcel/PHPExcel.php';
 
 use PHPExcel_IOFactory,
     PHPExcel_Cell;
@@ -34,7 +34,7 @@ class Excel {
 
         $this->setActiveSheet();
     }
-
+    
     /**
      * Number of sheets
      * 
